@@ -1,0 +1,16 @@
+.widget__watch {
+    width: 300px;
+    height: 300px;
+    border: solid 2px #000;
+    border-radius: 50%;
+}
+
+.widget__delete {
+    display: flex;
+    justify-self: end;
+    background-image: url(../../images/x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
