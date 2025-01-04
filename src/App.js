@@ -1,8 +1,10 @@
 import './App.css';
 import Form from './components/Form/Form';
 
-function App() {
-    return <Form />;
+export default function App() {
+    return (
+        <div className='container'>
+            <Form />
+        </div>
+    );
 }
-
-export default App;
